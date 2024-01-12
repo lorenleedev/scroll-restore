@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from './logo.svg';
-import './App.css';
 
-function Page() {
+function Page2() {
+  useEffect(() => {
+    // 페이지 로드 시 항상 가장 위로 이동
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,9 +23,15 @@ function Page() {
         <div  style={{height: "500px"}}>
           냉무 3
         </div>
+        <div  style={{height: "500px"}}>
+          냉무 4
+        </div>
+        <div  style={{height: "500px"}}>
+          냉무 5
+        </div>
       </header>
     </div>
   );
 }
 
-export default Page;
+export default Page2;
