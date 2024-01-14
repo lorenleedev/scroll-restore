@@ -13,6 +13,3 @@ manual: 사용자가 뒤로가기 시 이전 페이지 위치를 보기위해 �
 window.history.scrollRestoration = "manual"; 
 
 
-### 배포된 페이지
-[https://lorenleedev.github.io/scroll-restore/](https://lorenleedev.github.io/scroll-restore/)
-
