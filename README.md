@@ -14,5 +14,5 @@ window.history.scrollRestoration = "manual";
 
 
 ### 배포된 페이지
-[https://lorenleedev.github.io/scroll-resotre/](https://lorenleedev.github.io/scroll-resotre/)
+[https://lorenleedev.github.io/scroll-restore/](https://lorenleedev.github.io/scroll-restore/)
 
