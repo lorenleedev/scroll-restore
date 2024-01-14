@@ -18,7 +18,7 @@ function Page1() {
     if (location.hash === '#restore') {
       backLocationRef.current?.scrollIntoView();
     }
-  }, [location.hash, backLocationRef.current]);
+  }, [location.hash]);
 
   return (
     <header className="App-header">
